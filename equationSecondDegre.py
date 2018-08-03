@@ -1,6 +1,9 @@
 import math
 from nosFonctions import *
 
+#on utiliseici, notre fonction qui met de récuper
+#chiffretape au clavier
+
 a = tapezEntier()
 b = tapezEntier()
 c = tapezEntier()
@@ -10,7 +13,8 @@ print("le delta = ", delta)
 
 if delta > 0 :
     print ("2 valeurs possible.")
-    
+    #si delta est plus grand que 0, sait qu'on a 2
+    et quil faut utiliser les formules suivantes? 
     x1 = (-b + math.sqrt(delta)) / (2*a)
     x2 = (-b + math.sqrt(delta)) / (2*a)
 
@@ -24,5 +28,5 @@ elif delta == 0 :
     print("x = ",x1)
 
 else:
-    print("pas de réponse.")
+    print("pas de réponse")
     
